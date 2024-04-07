@@ -19,7 +19,7 @@ def stringify(node: Node) -> str:
     else:
         probe = node
         while probe is not None:
-            res += f"{probe.data} -> "
+            res += f'{probe.data} -> '
             probe = probe.next
         return res + 'None'
 
