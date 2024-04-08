@@ -7,7 +7,7 @@ class Context(object):
     def __init__(self, first, second):
         self.first = first
         self.second = second
-    
+
 def alternating_split(head: Node) -> Context:
     if head is None or head.next is None:
         raise ValueError('head must have at least two nodes')
